@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-util/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-register/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-user/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-task/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-order/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+  </component>
+</project>
