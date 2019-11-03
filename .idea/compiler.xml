@@ -13,6 +13,7 @@
         <module name="shop-task" />
         <module name="shop-user" />
         <module name="shop-util" />
+        <module name="shop-web" />
         <module name="shop-zuul" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
       <module name="shop-task" target="1.8" />
       <module name="shop-user" target="1.8" />
       <module name="shop-util" target="1.8" />
+      <module name="shop-web" target="1.8" />
       <module name="shop-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

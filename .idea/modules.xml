@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/shop-task/shop-task.iml" filepath="$PROJECT_DIR$/shop-task/shop-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-user/shop-user.iml" filepath="$PROJECT_DIR$/shop-user/shop-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-util/shop-util.iml" filepath="$PROJECT_DIR$/shop-util/shop-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-web/shop-web.iml" filepath="$PROJECT_DIR$/shop-web/shop-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-zuul/shop-zuul.iml" filepath="$PROJECT_DIR$/shop-zuul/shop-zuul.iml" />
     </modules>
   </component>
