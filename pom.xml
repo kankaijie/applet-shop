@@ -56,12 +56,14 @@
 			<version>2.1.7.RELEASE</version>
 		</dependency>
 
+		<!--eureka服务端依赖包-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 			<version>2.1.2.RELEASE</version>
 		</dependency>
 
+		<!--eureka客户端依赖包-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
@@ -75,6 +77,7 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!--mybatis依赖-->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -87,6 +90,16 @@
 			<artifactId>mybatis-plus</artifactId>
 			<version>2.1.7</version>
 		</dependency>
+
+
+		<!--fegin远程调用的依赖包-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<version>2.1.2.RELEASE</version>
+		</dependency>
+
+
 
 
 
