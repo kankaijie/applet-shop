@@ -1,0 +1,35 @@
+server:
+  port: 8083
+
+
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+       defaultZone: http://127.0.0.1:10087/eureka
+
+
+spring:
+  application:
+    name: shop-goods
+
+  ##解决feign远程调用服务名称重复的问题
+  main:
+    allow-bean-definition-overriding: true
+
+##s数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/applet-shop?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+##mybatis配置
+mybatis:
+  type-aliases-package: com.org.shop.pojo
+  mapper-locations:  classpath:mapper/*Mapper.xml

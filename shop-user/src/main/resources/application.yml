@@ -17,7 +17,15 @@ spring:
   application:
     name: shop-user
 
-##s数据库配置
+  redis:
+    database: 0
+    password:
+    port: 6379
+    host: 127.0.0.1
+
+
+
+  ##s数据库配置
   datasource:
     url: jdbc:mysql://localhost:3306/applet-shop?serverTimezone=UTC
     username: root

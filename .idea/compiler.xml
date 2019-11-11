@@ -30,4 +30,16 @@
       <module name="shop-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shop-admin" options="-parameters" />
+      <module name="shop-goods" options="-parameters" />
+      <module name="shop-order" options="-parameters" />
+      <module name="shop-register" options="-parameters" />
+      <module name="shop-task" options="-parameters" />
+      <module name="shop-user" options="-parameters" />
+      <module name="shop-util" options="-parameters" />
+      <module name="shop-zuul" options="-parameters" />
+    </option>
+  </component>
 </project>

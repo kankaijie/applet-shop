@@ -17,6 +17,12 @@ spring:
   application:
     name: shop-goods
 
+  redis:
+    database: 0
+    password:
+    port: 6379
+    host: 127.0.0.1
+
   ##解决feign远程调用服务名称重复的问题
   main:
     allow-bean-definition-overriding: true

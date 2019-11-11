@@ -22,7 +22,7 @@
 		<module>shop-user</module>
 		<module>shop-util</module>
 		<module>shop-zuul</module>
-		<module>shop-web</module>
+		<!--<module>shop-web</module>-->
 	</modules>
 
 
