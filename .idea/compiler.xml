@@ -39,6 +39,7 @@
       <module name="shop-task" options="-parameters" />
       <module name="shop-user" options="-parameters" />
       <module name="shop-util" options="-parameters" />
+      <module name="shop-web" options="-parameters" />
       <module name="shop-zuul" options="-parameters" />
     </option>
   </component>
