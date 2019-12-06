@@ -9,25 +9,25 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Data
-@TableName("t_user")
+@TableName("m_user")
 public class User implements Serializable {
 
     @Id
-    private Long id;
+    private Long userId;
 
     private String userName;
 
     private String password;
 
-    private Integer sex;
-
     private Integer status;
 
     private Date   createTime;
 
-    private Date   lastTime;
+    private Date   lastUpdateTime;
 
-    private String  headImg;
+    private String  nickName;
 
-    private String phone;
+    private String headImage;
+
+    private Integer source;
 }
