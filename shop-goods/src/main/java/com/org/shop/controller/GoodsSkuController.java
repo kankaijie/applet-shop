@@ -21,7 +21,7 @@ public class GoodsSkuController {
      * @return
      */
     @PostMapping("/queryGoods")
-    public HttpReturn queryGoods(UserDto userDto){
+    public UserDto queryGoods(UserDto userDto){
        return userClient.queryUser(userDto);
     }
 

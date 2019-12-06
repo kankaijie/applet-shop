@@ -22,7 +22,7 @@ public class UserController {
      * @return
      */
     @PostMapping("/queryUser")
-    public HttpReturn<UserDto> queryUser(UserDto userDto){
-      return HttpReturn.defaultSuccessData(userService.queryUser(userDto));
+    public UserDto queryUser(UserDto userDto){
+      return userService.queryUser(userDto);
     }
 }

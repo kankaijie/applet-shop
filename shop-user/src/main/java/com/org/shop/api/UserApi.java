@@ -1,7 +1,6 @@
 package com.org.shop.api;
 
 import com.org.shop.dto.UserDto;
-import com.org.shop.util.HttpReturn;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.PostMapping;
 
@@ -15,5 +14,5 @@ public interface UserApi {
      * @return
      */
     @PostMapping("/user/queryUser")
-    public HttpReturn<UserDto> queryUser(UserDto userDto);
+    public UserDto queryUser(UserDto userDto);
 }

@@ -6,6 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shop-web" />
+      </profile>
+      <profile name="Annotation profile for shop-parent" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="shop-admin" />
         <module name="shop-goods" />
         <module name="shop-order" />
@@ -13,7 +19,6 @@
         <module name="shop-task" />
         <module name="shop-user" />
         <module name="shop-util" />
-        <module name="shop-web" />
         <module name="shop-zuul" />
       </profile>
     </annotationProcessing>
