@@ -1,0 +1,8 @@
+com\org\shop\dto\UserDto.class
+com\org\shop\service\impl\UserServiceImpl.class
+com\org\shop\controller\UserController.class
+com\org\shop\api\UserApi.class
+com\org\shop\service\UserService.class
+com\org\shop\mapper\UserMapper.class
+com\org\shop\ShopUserApplication.class
+com\org\shop\pojo\User.class

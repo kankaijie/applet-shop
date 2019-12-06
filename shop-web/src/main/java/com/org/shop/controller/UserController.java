@@ -3,7 +3,6 @@ package com.org.shop.controller;
 import com.org.shop.client.UserClient;
 import com.org.shop.dto.UserDto;
 import com.org.shop.util.HttpReturn;
-import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
