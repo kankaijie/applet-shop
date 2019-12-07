@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca1dcde-f44e-4eea-a3ce-9cac70ad3943" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-admin/shop-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-admin/shop-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/shop-goods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods/shop-goods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/shop-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/shop-order.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/shop-register.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-register/shop-register.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-task/shop-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-task/shop-task.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/shop-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/shop-user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/shop-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/shop-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpReturn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/shop-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/shop-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/shop-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/shop-zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shop-order/target/" />
@@ -69,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+            <state relative-caret-position="420">
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
@@ -347,7 +333,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575687861149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575688102807" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -474,12 +460,12 @@
       <workItem from="1575612172182" duration="310000" />
       <workItem from="1575612644963" duration="564000" />
       <workItem from="1575615651150" duration="11046000" />
-      <workItem from="1575682815916" duration="4918000" />
+      <workItem from="1575682815916" duration="5160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24031000" />
+    <option name="totallyTimeSpent" value="24273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +479,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.25746268" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" sideWeight="0.28547296" side_tool="true" weight="0.25746268" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -505,14 +491,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26898047" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8390192" visible="true" weight="0.33188722" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8390192" visible="true" weight="0.22451194" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.22993493" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1609808" side_tool="true" visible="true" weight="0.33188722" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1609808" side_tool="true" visible="true" weight="0.22451194" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946696" weight="0.329718" />
@@ -848,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+        <state relative-caret-position="420">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
