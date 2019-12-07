@@ -1,0 +1,33 @@
+server:
+  port: 8087
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+       defaultZone: http://127.0.0.1:10087/eureka
+
+spring:
+  application:
+    name: shop-web
+
+  ##s数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/applet-shop?serverTimezone=UTC
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+  redis:
+    database: 0
+    password:
+    port: 6379
+    host: 127.0.0.1
+  main:
+    allow-bean-definition-overriding: true
+
+
