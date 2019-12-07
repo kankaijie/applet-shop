@@ -10,6 +10,7 @@ public class HttpReturn<T> implements Serializable{
     private String message;
     private boolean success;
     private T data;
+    private String time;
 
     public Integer getCode() {
         return code;
@@ -27,6 +28,10 @@ public class HttpReturn<T> implements Serializable{
         return data;
     }
 
+    public String getTime() {
+        return time;
+    }
+
     /***
      * 默认返回成功的数据
      * @param <T>
@@ -37,6 +42,7 @@ public class HttpReturn<T> implements Serializable{
         httpReturn.message=HttpStatus.SUCCESS.getMessage();
         httpReturn.success=true;
         httpReturn.data=data;
+        httpReturn.time=HttpStatus.SUCCESS.getDate();
         return httpReturn;
     }
 
@@ -52,6 +58,7 @@ public class HttpReturn<T> implements Serializable{
         httpReturn.message=HttpStatus.SUCCESS.getMessage();
         httpReturn.success=true;
         httpReturn.data=null;
+        httpReturn.time=HttpStatus.SUCCESS.getDate();
         return httpReturn;
     }
 
@@ -66,6 +73,7 @@ public class HttpReturn<T> implements Serializable{
         httpReturn.code=HttpStatus.ERROR.getStatus();
         httpReturn.message=HttpStatus.ERROR.getMessage();
         httpReturn.success=false;
+        httpReturn.time=HttpStatus.ERROR.getDate();
         return httpReturn;
     }
 
@@ -84,6 +92,7 @@ public class HttpReturn<T> implements Serializable{
         httpReturn.code=status;
         httpReturn.message=message;
         httpReturn.success=false;
+        httpReturn.time=HttpStatus.ERROR.getDate();
         return httpReturn;
     }
 

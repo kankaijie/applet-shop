@@ -72,7 +72,7 @@ public class LoginFilter extends ZuulFilter {
             HttpServletResponse httpServletResponse=requestContext.getResponse();
             httpServletResponse.setCharacterEncoding("UTF-8");
             HttpReturn httpReturn=  HttpReturn.customError(HttpStatus.BAD_REQUEST.value(),"没有token,校验无效");
-            requestContext.setResponseBody(JSON.toJSONString(httpReturn));
+            requestContext.setResponseBody(JSON.toJSONString(httpReturn,true));
         }
 
 
