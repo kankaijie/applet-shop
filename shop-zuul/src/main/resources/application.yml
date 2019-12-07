@@ -32,13 +32,13 @@ zuul:
        MaxAutoRetries: 2 # 对同一实例重试的次数（单个集群节点服务重试的次数）
 
   # 开启熔断机制，超过六秒即开启熔断机制，网关内的时间排序：zuul的通信时间 > hystrix熔断时间 > retry重试时间
-hystrix:
- command:
-  default:
-    execution:
-      isolation:
-        thread:
-          timeoutInMilliseconds: 6000
+    hystrix:
+     command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 6000
 
 
 

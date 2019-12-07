@@ -76,16 +76,14 @@ public class HttpReturn<T> implements Serializable{
      * 自定异常
      * @param status
      * @param message
-     * @param data
      * @param <T>
      * @return
      */
-    public static<T> HttpReturn customError(Integer status,String message,T data){
+    public static<T> HttpReturn customError(Integer status,String message){
         HttpReturn<T> httpReturn=new HttpReturn<T>();
         httpReturn.code=status;
         httpReturn.message=message;
-        httpReturn.success=true;
-        httpReturn.data=data;
+        httpReturn.success=false;
         return httpReturn;
     }
 
