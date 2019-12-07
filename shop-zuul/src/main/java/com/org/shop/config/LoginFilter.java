@@ -13,6 +13,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
+/***
+ * @author kkj
+ * @date 2019-12-7 
+ */
+
 @Slf4j
 @Component
 public class LoginFilter extends ZuulFilter {
