@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shop-admin" />
+        <module name="shop-auth" />
         <module name="shop-goods" />
         <module name="shop-order" />
         <module name="shop-register" />
@@ -20,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="shop" target="1.8" />
       <module name="shop-admin" target="1.8" />
+      <module name="shop-auth" target="1.8" />
       <module name="shop-goods" target="1.8" />
       <module name="shop-order" target="1.8" />
       <module name="shop-register" target="1.8" />
@@ -33,6 +35,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="shop-admin" options="-parameters" />
+      <module name="shop-auth" options="-parameters" />
       <module name="shop-goods" options="-parameters" />
       <module name="shop-order" options="-parameters" />
       <module name="shop-register" options="-parameters" />

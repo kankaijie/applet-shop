@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/shop-admin/pom.xml" />
         <option value="$PROJECT_DIR$/shop-order/pom.xml" />
         <option value="$PROJECT_DIR$/shop-web/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-auth/pom.xml" />
       </list>
     </option>
   </component>
