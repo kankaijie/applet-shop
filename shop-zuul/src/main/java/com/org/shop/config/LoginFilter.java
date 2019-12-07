@@ -71,6 +71,8 @@ public class LoginFilter extends ZuulFilter {
             //返回客户端错误信息
             HttpServletResponse httpServletResponse=requestContext.getResponse();
             httpServletResponse.setCharacterEncoding("UTF-8");
+
+            //也可以重新返回到登录页面
             HttpReturn httpReturn=  HttpReturn.customError(HttpStatus.BAD_REQUEST.value(),"没有token,校验无效");
             requestContext.setResponseBody(JSON.toJSONString(httpReturn,true));
         }

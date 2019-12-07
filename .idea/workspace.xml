@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca1dcde-f44e-4eea-a3ce-9cac70ad3943" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpReturn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shop-order/target/" />
@@ -35,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+            <state relative-caret-position="430">
+              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
@@ -67,6 +63,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/ShopZuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://E:/jdk/jdk1.8.0_77/src.zip!/java/lang/Class.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="505">
@@ -75,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpReturn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -135,15 +143,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1271">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -190,9 +189,9 @@
         <option value="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/ShopZuulApplication.java" />
         <option value="$PROJECT_DIR$/shop-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java" />
         <option value="$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpStatus.java" />
         <option value="$PROJECT_DIR$/shop-util/src/main/java/com/org/shop/util/HttpReturn.java" />
+        <option value="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java" />
       </list>
     </option>
   </component>
@@ -403,7 +402,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575689080887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575689380493" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -530,12 +529,12 @@
       <workItem from="1575612172182" duration="310000" />
       <workItem from="1575612644963" duration="564000" />
       <workItem from="1575615651150" duration="11046000" />
-      <workItem from="1575682815916" duration="6187000" />
+      <workItem from="1575682815916" duration="6421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25300000" />
+    <option name="totallyTimeSpent" value="25534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,14 +560,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.26898047" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" visible="true" weight="0.4067245" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" visible="true" weight="0.2646421" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.22993493" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16151386" side_tool="true" visible="true" weight="0.4067245" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16151386" side_tool="true" weight="0.22451194" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946696" weight="0.329718" />
@@ -832,16 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/ShopZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-util/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -863,22 +852,6 @@
           <folding>
             <element signature="e#15396#15397#0" expanded="true" />
             <element signature="e#15420#15421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -943,6 +916,32 @@
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
             <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/ShopZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
           </folding>
         </state>
       </provider>
