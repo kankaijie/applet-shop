@@ -5,6 +5,7 @@ import com.org.shop.client.UserClient;
 import com.org.shop.dto.JwtUser;
 import com.org.shop.dto.UserDto;
 import com.org.shop.sign.CheckToken;
+import com.org.shop.sign.LoginToken;
 import com.org.shop.util.HttpReturn;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -39,7 +40,7 @@ public class UserController {
      * @param userDto
      * @return
      */
-    @CheckToken
+    @LoginToken
     @PostMapping("/login")
     public HttpReturn<JwtUser> login(@RequestBody UserDto userDto){
         return HttpReturn.defaultSuccessData(authClient.login(userDto));

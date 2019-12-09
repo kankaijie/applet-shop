@@ -83,7 +83,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
                 //查询用户
                 UserDto userDto=new UserDto();
-                userDto.setId(Long.valueOf(userId));
+                userDto.setUserId(Long.valueOf(userId));
                 userDto.setStatus(1);
                 UserDto user = userClient.queryUser(userDto);
                 if (user == null) {
