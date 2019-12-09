@@ -24,6 +24,9 @@ spring:
     host: 127.0.0.1
 
 
+  main:
+    allow-bean-definition-overriding: true
+
 
   ##s数据库配置
   datasource:

@@ -1,6 +1,7 @@
 package com.org.shop.service;
 
 import com.org.shop.dto.UserDto;
+import com.org.shop.pojo.User;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -12,4 +13,6 @@ public interface UserService {
      * @return
      */
     UserDto queryUser(UserDto userDto);
+
+
 }

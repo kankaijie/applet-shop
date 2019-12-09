@@ -18,6 +18,7 @@
 	<description>Demo project for Spring Boot</description>
 
 	<dependencies>
+
 		<dependency>
 			<groupId>com.org.shop</groupId>
 			<artifactId>shop-util</artifactId>
