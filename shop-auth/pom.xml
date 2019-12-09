@@ -63,6 +63,23 @@
             <version>3.4.0</version>
         </dependency>
 
+
+
+        <!--配置springboot版本的swagger-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+
+        <!--这是国内版bootstrap-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>1.9.3</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

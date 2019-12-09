@@ -44,6 +44,12 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object object) throws Exception {
+
+       //swgger放行
+       if(request.getRequestURI().contains("swagger-resources")){
+           return true;
+       }
+
         // 从 http 请求头中取出 token
         String token = request.getHeader("applet_token");
 
