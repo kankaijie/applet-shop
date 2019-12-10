@@ -1,10 +1,14 @@
 package com.org.shop.config;
 
 import com.alibaba.fastjson.JSON;
+import com.auth0.jwt.JWT;
+import com.auth0.jwt.interfaces.Claim;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import com.org.shop.global.ContextJwtUser;
 import com.org.shop.util.HttpReturn;
+import com.org.shop.util.JwtUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
@@ -68,22 +72,37 @@ public class LoginFilter extends ZuulFilter {
         //3、获取请求头的token
         String token=request.getHeader("applet_token");
         if(StringUtils.isEmpty(token)){ //没有带token
-            requestContext.setSendZuulResponse(false);
-            // 返回401状态码。也可以考虑重定向到登录页
-            requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
-            log.info("============没有token,校验无效============");
-
-            //返回客户端错误信息
-            HttpServletResponse httpServletResponse=requestContext.getResponse();
-            httpServletResponse.setCharacterEncoding("UTF-8");
-
-            //也可以重新返回到登录页面
-            HttpReturn httpReturn=  HttpReturn.customError(HttpStatus.BAD_REQUEST.value(),"没有token,校验无效");
-            requestContext.setResponseBody(JSON.toJSONString(httpReturn,true));
+            this.requestContext(requestContext,new HttpReturn(),HttpStatus.BAD_REQUEST.value(),"没有token,校验无效");
         }
-
-
 
         return null;
     }
+
+
+
+
+    /***
+     * 封装公用方法
+     * @param requestContext
+     * @param httpReturn
+     * @param msg
+     */
+    public void requestContext(RequestContext requestContext,HttpReturn httpReturn,Integer status,String msg){
+        requestContext.setSendZuulResponse(false);
+        // 返回401状态码。也可以考虑重定向到登录页
+        requestContext.setResponseStatusCode(status);
+        log.info("============没有token,校验无效============");
+
+        //返回客户端错误信息
+        HttpServletResponse httpServletResponse=requestContext.getResponse();
+        httpServletResponse.setCharacterEncoding("UTF-8");
+
+        //也可以重新返回到登录页面
+        httpReturn.customError(HttpStatus.BAD_REQUEST.value(),msg);
+        requestContext.setResponseBody(JSON.toJSONString(httpReturn,true));
+    }
+
+
+
+
 }

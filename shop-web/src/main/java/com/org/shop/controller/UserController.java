@@ -4,6 +4,7 @@ import com.org.shop.client.AuthClient;
 import com.org.shop.client.UserClient;
 import com.org.shop.dto.JwtUser;
 import com.org.shop.dto.UserDto;
+import com.org.shop.sign.CheckToken;
 import com.org.shop.sign.LoginToken;
 import com.org.shop.util.HttpReturn;
 import io.swagger.annotations.Api;
@@ -35,6 +36,7 @@ public class UserController {
      */
 
     @ApiOperation(value = "查询用户",notes = "查询用户")
+    @CheckToken
     @PostMapping("/queryUser")
     public HttpReturn<UserDto> queryUser(@RequestBody UserDto userDto){
         return HttpReturn.defaultSuccessData(userClient.queryUser(userDto));

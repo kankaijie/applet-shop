@@ -57,7 +57,13 @@
 			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
 			<version>2.1.0.RELEASE</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.org.shop</groupId>
+            <artifactId>shop-auth</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 

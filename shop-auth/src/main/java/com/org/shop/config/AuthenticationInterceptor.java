@@ -6,6 +6,7 @@ import com.auth0.jwt.interfaces.Claim;
 import com.org.shop.client.UserClient;
 import com.org.shop.dto.JwtUser;
 import com.org.shop.dto.UserDto;
+import com.org.shop.global.ContextJwtUser;
 import com.org.shop.sign.CheckToken;
 import com.org.shop.sign.LoginToken;
 import com.org.shop.util.JwtUtil;
@@ -18,6 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
+
 
 
 /***
@@ -104,6 +106,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 if (!verify) {
                     throw new RuntimeException("非法访问！");
                 }
+                ContextJwtUser.setJwtUser(jwtUser);  //
                 return true;
             }
         }
