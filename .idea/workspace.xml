@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca1dcde-f44e-4eea-a3ce-9cac70ad3943" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/show.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/show.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/config/SwaggerInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/shop-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/shop-zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ca1dcde-f44e-4eea-a3ce-9cac70ad3943" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shop-order/target/" />
     <ignored path="$PROJECT_DIR$/shop-register/target/" />
@@ -52,23 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="321">
+              <caret line="108" column="55" lean-forward="true" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="517" selection-start-line="517" selection-end-line="517" />
             </state>
           </provider>
         </entry>
@@ -83,10 +43,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/InterceptorConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/global/ContextJwtUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="e#275#276#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
@@ -99,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="336">
+              <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#846#847#0" expanded="true" />
@@ -553,7 +522,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575957529209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575960821775" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -721,12 +690,12 @@
       <workItem from="1575615651150" duration="11046000" />
       <workItem from="1575682815916" duration="18307000" />
       <workItem from="1575859937990" duration="15017000" />
-      <workItem from="1575941131556" duration="9723000" />
+      <workItem from="1575941131556" duration="12699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62160000" />
+    <option name="totallyTimeSpent" value="65136000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,7 +709,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="1" sideWeight="0.28547296" side_tool="true" weight="0.25746268" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -752,7 +721,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.45444685" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" visible="true" weight="0.42407808" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" visible="true" weight="0.38828632" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -803,12 +772,6 @@
           <line>103</line>
           <properties />
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java</url>
-          <line>104</line>
-          <properties />
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1049,13 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-register/src/main/java/com/org/shop/ShopRegisterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1118,28 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/global/ContextJwtUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/ShopWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/config/SwaggerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -1147,13 +1081,6 @@
           <folding>
             <element signature="e#0#1285#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -1184,23 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="517" selection-start-line="517" selection-end-line="517" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1208,14 +1118,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="517" selection-start-line="517" selection-end-line="517" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/config/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="336">
+          <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#846#847#0" expanded="true" />
             <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/global/ContextJwtUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/ShopWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="108" column="55" lean-forward="true" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
