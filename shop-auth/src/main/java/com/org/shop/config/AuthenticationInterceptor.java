@@ -1,5 +1,6 @@
 package com.org.shop.config;
 
+import com.alibaba.fastjson.JSONObject;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.auth0.jwt.interfaces.Claim;
@@ -9,15 +10,21 @@ import com.org.shop.dto.UserDto;
 import com.org.shop.global.ContextJwtUser;
 import com.org.shop.sign.CheckToken;
 import com.org.shop.sign.LoginToken;
+import com.org.shop.util.HttpReturn;
 import com.org.shop.util.JwtUtil;
+import io.micrometer.core.instrument.util.JsonUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.util.StringUtils;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
+import springfox.documentation.spring.web.json.Json;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 
@@ -55,6 +62,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         // 从 http 请求头中取出 token
         String token = request.getHeader("applet_token");
 
+
         // 如果不是映射到方法直接通过
         if (!(object instanceof HandlerMethod)) {
             return true;
@@ -74,12 +82,17 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         if (method.isAnnotationPresent(CheckToken.class)) {
             CheckToken checkToken = method.getAnnotation(CheckToken.class);
             if (checkToken.required()) {
+
+
                 // 执行认证
                 if (token == null) {
-                    throw new RuntimeException("无token，请重新登录");
+                    log.info("没有token");
+                    this.responseMessage(response,HttpStatus.BAD_REQUEST.value(),"没有token");
+                   return false;
                 }
-                // 获取 token 中的 user id
 
+
+                // 获取 token 中的 user id
                 String userId="";
                 try {
                     Claim claim = JWT.decode(token).getClaims().get("id");
@@ -95,8 +108,11 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 userDto.setStatus(1);
                 UserDto user = userClient.queryUser(userDto);
                 if (user == null) {
-                    throw new RuntimeException("用户不存在，请重新登录");
+                    this.responseMessage(response,HttpStatus.NOT_FOUND.value(),"用户不存在，请重新登录");
+                   return false;
                 }
+
+
                 JwtUser jwtUser = new JwtUser();
                 jwtUser.setId(Long.valueOf(userId));
                 jwtUser.setUserName(user.getUserName());
@@ -104,8 +120,10 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 jwtUser.setPassword(user.getPassword());
                 Boolean verify = JwtUtil.isVerify(token, jwtUser);
                 if (!verify) {
-                    throw new RuntimeException("非法访问！");
+                    this.responseMessage(response,HttpStatus.NOT_IMPLEMENTED.value(),"非法访问");
+                    return false;
                 }
+
                 ContextJwtUser.setJwtUser(jwtUser);  //
                 return true;
             }
@@ -114,4 +132,24 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
         return false;
     }
+
+
+    /***
+     * 封用公用方法
+     * @param response
+     * @param status
+     * @param message
+     * @return
+     * @throws IOException
+     */
+    public void responseMessage(HttpServletResponse response,Integer status,String message) throws IOException {
+        response.setCharacterEncoding("utf-8");
+        HttpReturn httpReturn=HttpReturn.customError(status,message);
+        response.getWriter().println(JSONObject.toJSONString(httpReturn,true));
+    }
+
+
+
+
+
 }
