@@ -18,6 +18,7 @@ public class ShopAuthApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ShopAuthApplication.class, args);
+        log.info("this is ShopAuthApplication start ...........");
     }
 
 }
