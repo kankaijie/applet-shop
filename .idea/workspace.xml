@@ -2,44 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca1dcde-f44e-4eea-a3ce-9cac70ad3943" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/global/ContextJwtUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/service/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/service/impl/AuthServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/sign/CheckToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/sign/LoginToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/client/AuthClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/ShopZuulApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/config/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/global/ContextJwtUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/global/ContextJwtUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/ShopZuulApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/ShopZuulApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/config/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/config/LoginFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shop-order/target/" />
@@ -60,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+            <state relative-caret-position="270">
+              <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,14 +90,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-user/src/main/java/com/org/shop/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="267">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
-                <element signature="e#665#666#0" expanded="true" />
                 <element signature="e#716#717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -327,53 +328,47 @@
             <path>
               <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-register" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-util" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
               <item name="shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="applet-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="applet-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -439,7 +434,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575962781452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575963150667" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -607,12 +602,12 @@
       <workItem from="1575615651150" duration="11046000" />
       <workItem from="1575682815916" duration="18307000" />
       <workItem from="1575859937990" duration="15017000" />
-      <workItem from="1575941131556" duration="14689000" />
+      <workItem from="1575941131556" duration="14984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67126000" />
+    <option name="totallyTimeSpent" value="67421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,8 +619,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26279318" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="1" sideWeight="0.28547296" side_tool="true" weight="0.25746268" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -636,8 +632,8 @@
       <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.45444685" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" weight="0.28091106" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.45444685" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" visible="true" weight="0.4067245" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -667,6 +663,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/client/AuthClient.java">
@@ -947,16 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1022,16 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/applet-shop.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3299" />
@@ -1070,11 +1058,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-user/src/main/java/com/org/shop/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="267">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
-            <element signature="e#665#666#0" expanded="true" />
             <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

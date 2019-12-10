@@ -123,7 +123,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                     this.responseMessage(response,HttpStatus.NOT_IMPLEMENTED.value(),"非法访问");
                     return false;
                 }
-
+                jwtUser.setToken(null);
                 ContextJwtUser.setJwtUser(jwtUser);  //
                 return true;
             }

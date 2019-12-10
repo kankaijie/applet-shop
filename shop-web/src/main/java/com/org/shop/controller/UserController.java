@@ -4,6 +4,7 @@ import com.org.shop.client.AuthClient;
 import com.org.shop.client.UserClient;
 import com.org.shop.dto.JwtUser;
 import com.org.shop.dto.UserDto;
+import com.org.shop.global.ContextJwtUser;
 import com.org.shop.sign.CheckToken;
 import com.org.shop.sign.LoginToken;
 import com.org.shop.util.HttpReturn;
@@ -39,6 +40,7 @@ public class UserController {
     @CheckToken
     @PostMapping("/queryUser")
     public HttpReturn<UserDto> queryUser(@RequestBody UserDto userDto){
+        JwtUser jwtUser= ContextJwtUser.getJwtUser();
         return HttpReturn.defaultSuccessData(userClient.queryUser(userDto));
     }
 
