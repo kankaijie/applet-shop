@@ -17,7 +17,7 @@ import java.util.UUID;
 @Component
 public class JwtUtil {
 
-    @Resource
+    @Autowired
     private RedisTemplate<String,Object> redisTemplate;
 
     private  final String user_code="user_code";
