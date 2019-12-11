@@ -4,13 +4,23 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+@Component
 public class JwtUtil {
+
+    @Resource
+    private RedisTemplate<String,Object> redisTemplate;
+
+    private  final String user_code="user_code";
 
 
     /***
@@ -19,7 +29,7 @@ public class JwtUtil {
      * @param user
      * @return
      */
-    public static String createJWT(long ttlMillis, JwtUser user) {
+    public  String createJWT(long ttlMillis, JwtUser user) {
 
         //指定签名的时候使用的签名算法，也就是header那部分，jwt已经将这部分内容封装好了。
         SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS512;
@@ -59,6 +69,7 @@ public class JwtUtil {
             long expMillis = nowMillis + ttlMillis;
             Date exp = new Date(expMillis);
             //设置过期时间
+            redisTemplate.opsForValue().set(user_code+"_"+ user.getId(),user.getId(),expMillis);
             builder.setExpiration(exp);
         }
 

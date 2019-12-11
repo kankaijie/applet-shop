@@ -28,7 +28,7 @@ public class AuthController {
         jwtUser.setId(userDtoResult.getUserId());
         jwtUser.setUserName(userDtoResult.getUserName());
         jwtUser.setPassword(userDtoResult.getPassword());
-        String token = JwtUtil.createJWT(6000000, jwtUser);
+        String token = new JwtUtil().createJWT(1000*24*60*60, jwtUser);
         jwtUser.setPassword(null);
         jwtUser.setToken(token);
         return jwtUser;

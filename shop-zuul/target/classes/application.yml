@@ -15,7 +15,8 @@ spring:
   application:
     name: shop-zuul
 
-
+  main:
+   allow-bean-definition-overriding: true
 
 zuul:
   routes:

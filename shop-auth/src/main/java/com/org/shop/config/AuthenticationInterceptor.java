@@ -12,16 +12,15 @@ import com.org.shop.sign.CheckToken;
 import com.org.shop.sign.LoginToken;
 import com.org.shop.util.HttpReturn;
 import com.org.shop.util.JwtUtil;
-import io.micrometer.core.instrument.util.JsonUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.HttpStatus;
-import org.springframework.util.StringUtils;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
-import springfox.documentation.spring.web.json.Json;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -39,6 +38,11 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
     @Autowired
     private UserClient userClient;
+
+    @Autowired
+    private RedisTemplate<String,String> redisTemplate;
+
+    private static final String user_code="user_code";
 
 
     @Override
@@ -92,6 +96,8 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 }
 
 
+
+
                 // 获取 token 中的 user id
                 String userId="";
                 try {
@@ -111,6 +117,15 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                     this.responseMessage(response,HttpStatus.NOT_FOUND.value(),"用户不存在，请重新登录");
                    return false;
                 }
+
+
+               //验证token是否过期
+               String signs="user_code_"+userId;
+               boolean userCode= redisTemplate.hasKey(signs);
+               if(!userCode){
+                   this.responseMessage(response,HttpStatus.NOT_IMPLEMENTED.value(),"token已过期，请重新登录");
+                   return false;
+               }
 
 
                 JwtUser jwtUser = new JwtUser();

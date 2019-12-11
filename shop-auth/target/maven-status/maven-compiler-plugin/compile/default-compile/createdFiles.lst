@@ -1,3 +1,4 @@
+com\org\shop\config\RedisConfig.class
 com\org\shop\sign\CheckToken.class
 com\org\shop\client\UserClient.class
 com\org\shop\controller\AuthController.class
