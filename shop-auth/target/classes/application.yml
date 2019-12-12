@@ -37,9 +37,9 @@ spring:
 
 
 ##mybatis配置
-mybatis:
-  type-aliases-package: com.org.shop.pojo
-  mapper-locations:  classpath:mapper/*Mapper.xml
+#mybatis:
+#  type-aliases-package: com.org.shop.pojo
+#  mapper-locations:  classpath:mapper/*Mapper.xml
 
 
 

@@ -6,7 +6,9 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.Date;
@@ -69,7 +71,7 @@ public class JwtUtil {
             long expMillis = nowMillis + ttlMillis;
             Date exp = new Date(expMillis);
             //设置过期时间
-            redisTemplate.opsForValue().set(user_code+"_"+ user.getId(),user.getId(),expMillis);
+            redisTemplate.opsForValue().set(user_code+"_"+ user.getId(),user.getId()+"",expMillis);
             builder.setExpiration(exp);
         }
 

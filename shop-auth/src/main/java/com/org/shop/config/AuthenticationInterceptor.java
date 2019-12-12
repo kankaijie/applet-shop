@@ -8,6 +8,7 @@ import com.org.shop.client.UserClient;
 import com.org.shop.dto.JwtUser;
 import com.org.shop.dto.UserDto;
 import com.org.shop.global.ContextJwtUser;
+import com.org.shop.service.AuthService;
 import com.org.shop.sign.CheckToken;
 import com.org.shop.sign.LoginToken;
 import com.org.shop.util.HttpReturn;
@@ -15,7 +16,9 @@ import com.org.shop.util.JwtUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -32,6 +35,7 @@ import java.lang.reflect.Method;
  * 编写拦截器请求认证
  */
 @Slf4j
+@Component
 public class AuthenticationInterceptor implements HandlerInterceptor {
 
 
@@ -40,7 +44,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
     private UserClient userClient;
 
     @Autowired
-    private RedisTemplate<String,String> redisTemplate;
+    private StringRedisTemplate redisUtil;
 
     private static final String user_code="user_code";
 
@@ -121,7 +125,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
                //验证token是否过期
                String signs="user_code_"+userId;
-               boolean userCode= redisTemplate.hasKey(signs);
+               boolean userCode= redisUtil.hasKey(signs);
                if(!userCode){
                    this.responseMessage(response,HttpStatus.NOT_IMPLEMENTED.value(),"token已过期，请重新登录");
                    return false;
