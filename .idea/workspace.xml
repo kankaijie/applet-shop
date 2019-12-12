@@ -2,39 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca1dcde-f44e-4eea-a3ce-9cac70ad3943" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/global/ContextJwtUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/global/ContextJwtUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/ShopZuulApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/ShopZuulApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/config/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/config/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-admin/target/classes/com/org/shop/ShopAdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/META-INF/shop-auth.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/global/ContextJwtUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/service/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/service/impl/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/sign/CheckToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/sign/LoginToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/com/org/shop/ShopGoodsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/com/org/shop/controller/GoodsSkuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/com/org/shop/ShopOrderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-register/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-register/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-task/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-task/target/classes/com/org/shop/ShopTaskApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-task/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-task/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/client/AuthClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/ShopZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/config/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shop-order/target/" />
@@ -59,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+              <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
               <folding>
                 <element signature="e#1171#1187#0" expanded="true" />
               </folding>
@@ -264,7 +302,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-153" />
     <option name="y" value="35" />
     <option name="width" value="1440" />
@@ -566,7 +604,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576123242637" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576129190408" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -737,12 +775,12 @@
       <workItem from="1575859937990" duration="15017000" />
       <workItem from="1575941131556" duration="23308000" />
       <workItem from="1576051009953" duration="7575000" />
-      <workItem from="1576113693116" duration="9445000" />
+      <workItem from="1576113693116" duration="10050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92765000" />
+    <option name="totallyTimeSpent" value="93370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,7 +794,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26545843" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="1" sideWeight="0.28547296" side_tool="true" weight="0.25746268" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -767,8 +805,8 @@
       <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.45986986" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" visible="true" weight="0.21475054" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.45986986" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" weight="0.21475054" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -1139,7 +1177,7 @@
     <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1201,7 +1239,7 @@
     <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
           <folding>
             <element signature="e#1171#1187#0" expanded="true" />
           </folding>
