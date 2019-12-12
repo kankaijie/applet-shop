@@ -40,7 +40,6 @@ public class UserController {
     @CheckToken
     @PostMapping("/queryUser")
     public HttpReturn<UserDto> queryUser(@RequestBody UserDto userDto){
-        JwtUser jwtUser= ContextJwtUser.getJwtUser();
         return HttpReturn.defaultSuccessData(userClient.queryUser(userDto));
     }
 

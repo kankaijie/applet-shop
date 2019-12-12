@@ -1,4 +1,5 @@
 package com.org.shop.util;
+import com.alibaba.fastjson.JSONObject;
 import com.org.shop.dto.JwtUser;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
@@ -71,7 +72,8 @@ public class JwtUtil {
             long expMillis = nowMillis + ttlMillis;
             Date exp = new Date(expMillis);
             //设置过期时间
-            redisTemplate.opsForValue().set(user_code+"_"+ user.getId(),user.getId()+"",expMillis);
+
+            redisTemplate.opsForValue().set(user_code+"_"+ user.getId(), JSONObject.toJSONString(user,true),ttlMillis);
             builder.setExpiration(exp);
         }
 

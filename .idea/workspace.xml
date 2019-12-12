@@ -3,45 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca1dcde-f44e-4eea-a3ce-9cac70ad3943" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/AuthenticationInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/InterceptorConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/controller/AuthController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/dto/JwtUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/global/ContextJwtUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/service/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/service/impl/AuthServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/sign/CheckToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/sign/LoginToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/dto/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/client/AuthClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/ShopZuulApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/config/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shop-order/target/" />
@@ -65,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+            <state relative-caret-position="346">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+            <state relative-caret-position="-45">
+              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
               <folding>
                 <element signature="e#1171#1187#0" expanded="true" />
               </folding>
@@ -89,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="368">
+              <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,14 +62,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="162">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1401#1425#0" expanded="true" />
                 <element signature="e#1572#1588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/ShopAuthApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-user/src/main/java/com/org/shop/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,32 +128,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/connection/RedisStringCommands.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/connection/DefaultStringRedisConnection.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="491" column="16" selection-start-line="491" selection-start-column="16" selection-end-line="491" selection-end-column="16" />
-              <folding>
-                <element signature="e#19246#19247#0" expanded="true" />
-                <element signature="e#19303#19304#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="200" selection-start-line="200" selection-end-line="200" />
+            <state relative-caret-position="329">
+              <caret line="198" selection-start-line="198" selection-end-line="198" />
             </state>
           </provider>
         </entry>
@@ -224,7 +199,6 @@
         <option value="$PROJECT_DIR$/doc/show.md" />
         <option value="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/UserConfig.java" />
         <option value="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/global/ContextJwtUser.java" />
-        <option value="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java" />
         <option value="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/RedisUtils.java" />
         <option value="$PROJECT_DIR$/shop-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/shop-zuul/src/main/java/com/org/shop/ShopZuulApplication.java" />
@@ -241,6 +215,7 @@
         <option value="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -573,7 +548,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576129783139" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576131017477" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -744,12 +719,12 @@
       <workItem from="1575859937990" duration="15017000" />
       <workItem from="1575941131556" duration="23308000" />
       <workItem from="1576051009953" duration="7575000" />
-      <workItem from="1576113693116" duration="10642000" />
+      <workItem from="1576113693116" duration="11789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93962000" />
+    <option name="totallyTimeSpent" value="95109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -761,8 +736,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26545843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="1" sideWeight="0.28547296" side_tool="true" weight="0.25746268" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -773,8 +749,8 @@
       <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.45986986" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" weight="0.21475054" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.45986986" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83848614" visible="true" weight="0.38394794" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -819,12 +795,6 @@
           <line>3</line>
           <properties />
           <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1054,31 +1024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-user/src/main/java/com/org/shop/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/ShopWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,13 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/ShopAuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1142,16 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -1163,13 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="200" selection-start-line="200" selection-end-line="200" />
         </state>
       </provider>
     </entry>
@@ -1194,34 +1119,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="329">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1401#1425#0" expanded="true" />
+            <element signature="e#1572#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/ShopAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/util/JwtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+        <state relative-caret-position="-45">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
           <folding>
             <element signature="e#1171#1187#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/shop-auth/src/main/java/com/org/shop/config/AuthenticationInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="368">
+          <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1401#1425#0" expanded="true" />
-            <element signature="e#1572#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-user/src/main/java/com/org/shop/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-web/src/main/java/com/org/shop/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
