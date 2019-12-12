@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca1dcde-f44e-4eea-a3ce-9cac70ad3943" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/shop-admin/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-admin/target/classes/com/org/shop/ShopAdminApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/META-INF/shop-auth.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/ShopAuthApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/api/AuthApi.class" beforeDir="false" />
@@ -22,26 +18,8 @@
       <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/sign/CheckToken.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/sign/LoginToken.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-auth/target/classes/com/org/shop/util/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/com/org/shop/ShopGoodsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/com/org/shop/controller/GoodsSkuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/com/org/shop/ShopOrderApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-register/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-register/target/classes/com/org/shop/ShopRegisterApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-register/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-task/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-task/target/classes/com/org/shop/ShopTaskApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-task/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-task/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-user/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/ShopUserApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/api/UserApi.class" beforeDir="false" />
@@ -52,27 +30,18 @@
       <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/UserService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/org/shop/service/impl/UserServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-user/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-util/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/UtilApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpReturn.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-util/target/classes/com/org/shop/util/HttpStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/ShopWebApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/Swagger2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/client/AuthClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/client/UserClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/org/shop/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/ShopZuulApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-zuul/target/classes/com/org/shop/config/LoginFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shop-order/target/" />
@@ -604,7 +573,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576129190408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576129783139" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -775,12 +744,12 @@
       <workItem from="1575859937990" duration="15017000" />
       <workItem from="1575941131556" duration="23308000" />
       <workItem from="1576051009953" duration="7575000" />
-      <workItem from="1576113693116" duration="10050000" />
+      <workItem from="1576113693116" duration="10642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93370000" />
+    <option name="totallyTimeSpent" value="93962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,7 +761,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.714527" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="1" sideWeight="0.28547296" side_tool="true" weight="0.25746268" />
@@ -818,7 +786,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4989339" weight="0.5292842" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4989339" weight="0.30802602" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.45227766" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
